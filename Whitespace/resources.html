@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources - Whitepace</title>
+    <link rel="stylesheet" href="resources.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <a href="index.html">whitepace</a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="solutions.html">Solutions</a></li>
+                    <li><a href="resources.html" class="active">Resources</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                </ul>
+                <div class="nav-buttons">
+                    <a href="#" class="btn btn-secondary">Login</a>
+                    <a href="#" class="btn btn-primary">Try Whitepace free</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Resources & Learning Center</h1>
+                    <p>Everything you need to get the most out of Whitepace. From getting started guides to advanced tips and best practices.</p>
+                    <div class="hero-search">
+                        <input type="text" placeholder="Search resources..." class="search-input">
+                        <button class="search-btn">🔍</button>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="resource-showcase">
+                        <div class="resource-item">
+                            <div class="resource-icon">📖</div>
+                            <span>Guides</span>
+                        </div>
+                        <div class="resource-item">
+                            <div class="resource-icon">🎥</div>
+                            <span>Tutorials</span>
+                        </div>
+                        <div class="resource-item">
+                            <div class="resource-icon">📊</div>
+                            <span>Templates</span>
+                        </div>
+                        <div class="resource-item">
+                            <div class="resource-icon">💬</div>
+                            <span>Community</span>
+                        </div>
+                        <div class="resource-item">
+                            <div class="resource-icon">🛠️</div>
+                            <span>API Docs</span>
+                        </div>
+                        <div class="resource-item">
+                            <div class="resource-icon">🎯</div>
+                            <span>Best Practices</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resource Categories -->
+    <section class="resource-categories">
+        <div class="container">
+            <div class="category-tabs">
+                <button class="category-btn active" data-category="all">All Resources</button>
+                <button class="category-btn" data-category="getting-started">Getting Started</button>
+                <button class="category-btn" data-category="tutorials">Tutorials</button>
+                <button class="category-btn" data-category="templates">Templates</button>
+                <button class="category-btn" data-category="webinars">Webinars</button>
+                <button class="category-btn" data-category="documentation">Documentation</button>
+            </div>
+
+            <!-- All Resources -->
+            <div class="resource-grid" id="all-resources">
+                <!-- Getting Started Guide -->
+                <div class="resource-card featured" data-category="getting-started">
+                    <div class="resource-badge">Popular</div>
+                    <div class="resource-image">
+                        <div class="resource-preview">
+                            <div class="preview-icon">🚀</div>
+                            <div class="preview-text">Quick Start Guide</div>
+                        </div>
+                    </div>
+                    <div class="resource-content">
+                        <div class="resource-meta">
+                            <span class="resource-type">Guide</span>
+                            <span class="resource-time">15 min read</span>
+                        </div>
+                        <h3>Complete Getting Started Guide</h3>
+                        <p>Everything you need to know to set up your workspace, invite team members, and create your first project in Whitepace.</p>
+                        <a href="#" class="resource-link">Read Guide →</a>
+                    </div>
+                </div>
+
+                <!-- Video Tutorial -->
+                <div class="resource-card" data-category="tutorials">
+                    <div class="resource-image">
+                        <div class="resource-preview video">
+                            <div class="play-button">▶️</div>
+                            <div class="video-duration">12:34</div>
+                        </div>
+                    </div>
+                    <div class="resource-content">
+                        <div class="resource-meta">
+                            <span class="resource-type">Video</span>
+                            <span class="resource-time">12 min</span>
+                        </div>
+                        <h3>Project Management Masterclass</h3>
+                        <p>Learn advanced project management techniques and how to optimize your team's workflow using Whitepace features.</p>
+                        <a href="#" class="resource-link">Watch Video →</a>
+                    </div>
+                </div>
+
+                <!-- Template -->
+                <div class="resource-card" data-category="templates">
+                    <div class="resource-image">
+                        <div class="resource-preview">
+                            <div class="preview-icon">📋</div>
+                            <div class="preview-text">Project Template</div>
+                        </div>
+                    </div>
+                    <div class="resource-content">
+                        <div class="resource-meta">
+                            <span class="resource-type">Template</span>
+                            <span class="resource-time">Free</span>
+                        </div>
+                        <h3>Agile Sprint Planning Template</h3>
+                        <p>Ready-to-use template for agile teams to plan sprints, track progress, and manage backlogs effectively.</p>
+                        <a href="#" class="resource-link">Download →</a>
+                    </div>
+                </div>
+
+                <!-- Webinar -->
+                <div class="resource-card" data-category="webinars">
+                    <div class="resource-image">
+                        <div class="resource-preview">
+                            <div class="preview-icon">🎙️</div>
+                            <div class="preview-text">Live Webinar</div>
+                        </div>
+                    </div>
+                    <div class="resource-content">
+                        <div class="resource-meta">
+                            <span class="resource-type">Webinar</span>
+                            <span class="resource-time">45 min</span>
+                        </div>
+                        <h3>Remote Team Collaboration</h3>
+                        <p>Join our live webinar to learn best practices for managing remote teams and maintaining productivity.</p>
+                        <div class="webinar-date">Next: Dec 15, 2024 at 2:00 PM EST</div>
+                        <a href="#" class="resource-link">Register →</a>
+                    </div>
+                </div>
+
+                <!-- Documentation -->
+                <div class="resource-card" data-category="documentation">
+                    <div class="resource-image">
+                        <div class="resource-preview">
+                            <div class="preview-icon">📚</div>
+                            <div class="preview-text">API Documentation</div>
+                        </div>
+                    </div>
+                    <div class="resource-content">
+                        <div class="resource-meta">
+                            <span class="resource-type">Documentation</span>
+                            <span class="resource-time">Reference</span>
+                        </div>
+                        <h3>API Documentation</h3>
+                        <p>Complete reference for developers to integrate Whitepace with your existing tools and workflows.</p>
+                        <a href="#" class="resource-link">View Docs →</a>
+                    </div>
+                </div>
+
+                <!-- Tutorial -->
+                <div class="resource-card" data-category="tutorials">
+                    <div class="resource-image">
+                        <div class="resource-preview">
+                            <div class="preview-icon">🎯</div>
+                            <div class="preview-text">Step-by-Step</div>
+                        </div>
+                    </div>
+                    <div class="resource-content">
+                        <div class="resource-meta">
+                            <span class="resource-type">Tutorial</span>
+                            <span class="resource-time">20 min</span>
+                        </div>
+                        <h3>Advanced Automation Setup</h3>
+                        <p>Learn how to create powerful automations that save time and reduce manual work in your projects.</p>
+                        <a href="#" class="resource-link">Start Tutorial →</a>
+                    </div>
+                </div>
+
+                <!-- Template -->
+                <div class="resource-card" data-category="templates">
+                    <div class="resource-image">
+                        <div class="resource-preview">
+                            <div class="preview-icon">💼</div>
+                            <div class="preview-text">Business Template</div>
+                        </div>
+                    </div>
+                    <div class="resource-content">
+                        <div class="resource-meta">
+                            <span class="resource-type">Template</span>
+                            <span class="resource-time">Free</span>
+                        </div>
+                        <h3>Marketing Campaign Planner</h3>
+                        <p>Comprehensive template for planning, executing, and tracking marketing campaigns across multiple channels.</p>
+                        <a href="#" class="resource-link">Download →</a>
+                    </div>
+                </div>
+
+                <!-- Getting Started -->
+                <div class="resource-card" data-category="getting-started">
+                    <div class="resource-image">
+                        <div class="resource-preview">
+                            <div class="preview-icon">⚙️</div>
+                            <div class="preview-text">Configuration</div>
+                        </div>
+                    </div>
+                    <div class="resource-content">
+                        <div class="resource-meta">
+                            <span class="resource-type">Guide</span>
+                            <span class="resource-time">10 min read</span>
+                        </div>
+                        <h3>Team Setup & Permissions</h3>
+                        <p>Learn how to properly configure your team structure, set up roles, and manage permissions for optimal security.</p>
+                        <a href="#" class="resource-link">Read Guide →</a>
+                    </div>
+                </div>
+
+                <!-- Documentation -->
+                <div class="resource-card" data-category="documentation">
+                    <div class="resource-image">
+                        <div class="resource-preview">
+                            <div class="preview-icon">🔌</div>
+                            <div class="preview-text">Integrations</div>
+                        </div>
+                    </div>
+                    <div class="resource-content">
+                        <div class="resource-meta">
+                            <span class="resource-type">Documentation</span>
+                            <span class="resource-time">Reference</span>
+                        </div>
+                        <h3>Third-Party Integrations</h3>
+                        <p>Complete guide to connecting Whitepace with popular tools like Slack, Google Workspace, and Microsoft Teams.</p>
+                        <a href="#" class="resource-link">View Guide →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Downloads -->
+    <section class="popular-downloads">
+        <div class="container">
+            <div class="section-header">
+                <h2>Popular Downloads</h2>
+                <p>Most downloaded templates and resources by our community.</p>
+            </div>
+
+            <div class="downloads-grid">
+                <div class="download-item">
+                    <div class="download-icon">📊</div>
+                    <div class="download-info">
+                        <h4>Project Dashboard Template</h4>
+                        <p>Comprehensive dashboard for tracking project metrics and team performance.</p>
+                        <div class="download-stats">
+                            <span class="download-count">12,543 downloads</span>
+                            <span class="download-rating">⭐ 4.9</span>
+                        </div>
+                    </div>
+                    <a href="#" class="download-btn">Download</a>
+                </div>
+
+                <div class="download-item">
+                    <div class="download-icon">📝</div>
+                    <div class="download-info">
+                        <h4>Meeting Notes Template</h4>
+                        <p>Structured template for taking effective meeting notes and action items.</p>
+                        <div class="download-stats">
+                            <span class="download-count">9,876 downloads</span>
+                            <span class="download-rating">⭐ 4.8</span>
+                        </div>
+                    </div>
+                    <a href="#" class="download-btn">Download</a>
+                </div>
+
+                <div class="download-item">
+                    <div class="download-icon">🎯</div>
+                    <div class="download-info">
+                        <h4>Goal Setting Framework</h4>
+                        <p>Strategic framework for setting and tracking team and individual goals.</p>
+                        <div class="download-stats">
+                            <span class="download-count">8,234 downloads</span>
+                            <span class="download-rating">⭐ 4.9</span>
+                        </div>
+                    </div>
+                    <a href="#" class="download-btn">Download</a>
+                </div>
+
+                <div class="download-item">
+                    <div class="download-icon">🚀</div>
+                    <div class="download-info">
+                        <h4>Product Launch Checklist</h4>
+                        <p>Complete checklist to ensure successful product launches and releases.</p>
+                        <div class="download-stats">
+                            <span class="download-count">7,591 downloads</span>
+                            <span class="download-rating">⭐ 4.7</span>
+                        </div>
+                    </div>
+                    <a href="#" class="download-btn">Download</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learning Path -->
+    <section class="learning-path">
+        <div class="container">
+            <div class="section-header">
+                <h2>Recommended Learning Path</h2>
+                <p>Follow our curated learning path to master Whitepace and boost your team's productivity.</p>
+            </div>
+
+            <div class="path-timeline">
+                <div class="path-step completed">
+                    <div class="step-marker">✓</div>
+                    <div class="step-content">
+                        <h3>1. Getting Started</h3>
+                        <p>Set up your workspace and learn the basics</p>
+                        <div class="step-resources">
+                            <a href="#" class="step-link">Quick Start Guide</a>
+                            <a href="#" class="step-link">Video Tutorial</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="path-step active">
+                    <div class="step-marker">2</div>
+                    <div class="step-content">
+                        <h3>2. Project Management</h3>
+                        <p>Master project planning and team collaboration</p>
+                        <div class="step-resources">
+                            <a href="#" class="step-link">Project Templates</a>
+                            <a href="#" class="step-link">Best Practices Guide</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="path-step">
+                    <div class="step-marker">3</div>
+                    <div class="step-content">
+                        <h3>3. Advanced Features</h3>
+                        <p>Unlock powerful automation and integrations</p>
+                        <div class="step-resources">
+                            <a href="#" class="step-link">Automation Guide</a>
+                            <a href="#" class="step-link">API Documentation</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="path-step">
+                    <div class="step-marker">4</div>
+                    <div class="step-content">
+                        <h3>4. Team Optimization</h3>
+                        <p>Scale your team and optimize workflows</p>
+                        <div class="step-resources">
+                            <a href="#" class="step-link">Scaling Guide</a>
+                            <a href="#" class="step-link">Analytics Deep Dive</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Help & Support -->
+    <section class="help-support">
+        <div class="container">
+            <div class="section-header">
+                <h2>Help & Support</h2>
+                <p>Get the help you need, when you need it.</p>
+            </div>
+
+            <div class="support-grid">
+                <div class="support-card">
+                    <div class="support-icon">💬</div>
+                    <h3>Live Chat</h3>
+                    <p>Get instant help from our support team during business hours.</p>
+                    <div class="support-availability">Available: Mon-Fri 9AM-6PM EST</div>
+                    <a href="#" class="support-link">Start Chat →</a>
+                </div>
+
+                <div class="support-card">
+                    <div class="support-icon">📧</div>
+                    <h3>Email Support</h3>
+                    <p>Send us detailed questions and receive comprehensive answers within 24 hours.</p>
+                    <div class="support-availability">Response time: < 24 hours</div>
+                    <a href="#" class="support-link">Send Email →</a>
+                </div>
+
+                <div class="support-card">
+                    <div class="support-icon">🎓</div>
+                    <h3>Help Center</h3>
+                    <p>Browse our comprehensive knowledge base with articles and FAQs.</p>
+                    <div class="support-availability">500+ helpful articles</div>
+                    <a href="#" class="support-link">Browse Help →</a>
+                </div>
+
+                <div class="support-card">
+                    <div class="support-icon">👥</div>
+                    <h3>Community Forum</h3>
+                    <p>Connect with other users, share tips, and get community support.</p>
+                    <div class="support-availability">10,000+ active members</div>
+                    <a href="#" class="support-link">Join Community →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Signup -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <div class="newsletter-text">
+                    <h2>Stay Updated</h2>
+                    <p>Get the latest tips, tutorials, and product updates delivered to your inbox.</p>
+                </div>
+                <div class="newsletter-form">
+                    <input type="email" placeholder="Enter your email address" class="email-input">
+                    <button class="subscribe-btn">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>whitepace</h3>
+                    <p>whitepace was created for the new ways we live and work. We make a better workspace around the world</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Product</h3>
+                    <ul>
+                        <li><a href="#">Overview</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Customer stories</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Guides & tutorials</a></li>
+                        <li><a href="#">Help center</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Media kit</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>©2021 Whitepace LLC.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Category filtering functionality
+        document.querySelectorAll('.category-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Remove active class from all buttons
+                document.querySelectorAll('.category-btn').forEach(b => b.classList.remove('active'));
+                
+                // Add active class to clicked button
+                btn.classList.add('active');
+                
+                // Get selected category
+                const category = btn.getAttribute('data-category');
+                
+                // Show/hide resource cards
+                const resourceCards = document.querySelectorAll('.resource-card');
+                resourceCards.forEach(card => {
+                    if (category === 'all' || card.getAttribute('data-category') === category) {
+                        card.style.display = 'block';
+                        card.style.animation = 'fadeInUp 0.5s ease-out';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+        // Search functionality
+        document.querySelector('.search-btn').addEventListener('click', () => {
+            const searchTerm = document.querySelector('.search-input').value.toLowerCase();
+            const resourceCards = document.querySelectorAll('.resource-card');
+            
+            resourceCards.forEach(card => {
+                const title = card.querySelector('h3').textContent.toLowerCase();
+                const content = card.querySelector('p').textContent.toLowerCase();
+                
+                if (title.includes(searchTerm) || content.includes(searchTerm) || searchTerm === '') {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        });
+
+        // Newsletter form
+        document.querySelector('.subscribe-btn').addEventListener('click', () => {
+            const email = document.querySelector('.email-input').value;
+            if (email) {
+                alert('Thank you for subscribing!');
+                document.querySelector('.email-input').value = '';
+            }
+        });
+    </script>
+</body>
+</html>

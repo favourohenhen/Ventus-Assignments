@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing - Whitespace</title>
+    <link rel="stylesheet" href="pricing.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <a href="index.html">whitepace</a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="solutions.html">Solutions</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="pricing.html" class="active">Pricing</a></li>
+                </ul>
+                <div class="nav-buttons">
+                    <a href="#" class="btn btn-secondary">Login</a>
+                    <a href="#get-started" class="btn btn-primary">Try Whitepace free</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="pricing-hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Choose the Right Plan for Your Team</h1>
+                <p>Whether you're just getting started or scaling up, we have the perfect plan to help your team collaborate, organize, and achieve more together.</p>
+                
+                <!-- Billing Toggle -->
+                <div class="billing-toggle">
+                    <span class="toggle-label">Monthly</span>
+                    <label class="switch">
+                        <input type="checkbox" id="billingToggle">
+                        <span class="slider"></span>
+                    </label>
+                    <span class="toggle-label">Annual <span class="discount-badge">Save 20%</span></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Cards Section -->
+    <section class="pricing-plans">
+        <div class="container">
+            <div class="pricing-cards">
+                <!-- Free Plan -->
+                <div class="pricing-card">
+                    <div class="plan-header">
+                        <h3>Free</h3>
+                        <p class="plan-description">Perfect for individuals getting started</p>
+                        <div class="price-container">
+                            <span class="price" data-monthly="0" data-annual="0">$0</span>
+                            <span class="billing-period">forever</span>
+                        </div>
+                    </div>
+                    <ul class="features-list">
+                        <li><span class="check">✓</span> Sync unlimited devices</li>
+                        <li><span class="check">✓</span> 10 GB monthly uploads</li>
+                        <li><span class="check">✓</span> 200 MB max. note size</li>
+                        <li><span class="check">✓</span> Customize Home dashboard</li>
+                        <li><span class="check">✓</span> Connect primary Google Calendar</li>
+                        <li><span class="check">✓</span> Add due dates, reminders, and notifications</li>
+                        <li><span class="check">✓</span> Basic collaboration tools</li>
+                    </ul>
+                    <a href="#" class="btn btn-outline">Get Started</a>
+                </div>
+
+                <!-- Personal Plan -->
+                <div class="pricing-card featured">
+                    <div class="popular-badge">Most Popular</div>
+                    <div class="plan-header">
+                        <h3>Personal</h3>
+                        <p class="plan-description">Keep home and family on track</p>
+                        <div class="price-container">
+                            <span class="price" data-monthly="11.99" data-annual="9.59">$11.99</span>
+                            <span class="billing-period">per month</span>
+                        </div>
+                        <div class="annual-savings">Save $28.80 annually</div>
+                    </div>
+                    <ul class="features-list">
+                        <li><span class="check">✓</span> Everything in Free</li>
+                        <li><span class="check">✓</span> Unlimited personal workspace</li>
+                        <li><span class="check">✓</span> 25 GB monthly uploads</li>
+                        <li><span class="check">✓</span> 500 MB max. note size</li>
+                        <li><span class="check">✓</span> Connect multiple calendars</li>
+                        <li><span class="check">✓</span> Advanced search capabilities</li>
+                        <li><span class="check">✓</span> Email integration</li>
+                        <li><span class="check">✓</span> Priority customer support</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary">Get Started</a>
+                </div>
+
+                <!-- Professional Plan -->
+                <div class="pricing-card">
+                    <div class="plan-header">
+                        <h3>Professional</h3>
+                        <p class="plan-description">For professionals and small teams</p>
+                        <div class="price-container">
+                            <span class="price" data-monthly="24.99" data-annual="19.99">$24.99</span>
+                            <span class="billing-period">per month</span>
+                        </div>
+                        <div class="annual-savings">Save $60.00 annually</div>
+                    </div>
+                    <ul class="features-list">
+                        <li><span class="check">✓</span> Everything in Personal</li>
+                        <li><span class="check">✓</span> 50 GB monthly uploads</li>
+                        <li><span class="check">✓</span> 1 GB max. note size</li>
+                        <li><span class="check">✓</span> Team collaboration (up to 5 members)</li>
+                        <li><span class="check">✓</span> Advanced project management</li>
+                        <li><span class="check">✓</span> Custom templates</li>
+                        <li><span class="check">✓</span> Time tracking & reporting</li>
+                        <li><span class="check">✓</span> API access</li>
+                        <li><span class="check">✓</span> 24/7 priority support</li>
+                    </ul>
+                    <a href="#" class="btn btn-outline">Get Started</a>
+                </div>
+
+                <!-- Organization Plan -->
+                <div class="pricing-card">
+                    <div class="plan-header">
+                        <h3>Organization</h3>
+                        <p class="plan-description">For large teams and enterprises</p>
+                        <div class="price-container">
+                            <span class="price" data-monthly="49.99" data-annual="39.99">$49.99</span>
+                            <span class="billing-period">per month</span>
+                        </div>
+                        <div class="annual-savings">Save $120.00 annually</div>
+                    </div>
+                    <ul class="features-list">
+                        <li><span class="check">✓</span> Everything in Professional</li>
+                        <li><span class="check">✓</span> Unlimited storage</li>
+                        <li><span class="check">✓</span> Unlimited team members</li>
+                        <li><span class="check">✓</span> Advanced security & compliance</li>
+                        <li><span class="check">✓</span> Single Sign-On (SSO)</li>
+                        <li><span class="check">✓</span> Advanced analytics & insights</li>
+                        <li><span class="check">✓</span> Custom integrations</li>
+                        <li><span class="check">✓</span> Dedicated account manager</li>
+                        <li><span class="check">✓</span> On-premises deployment option</li>
+                    </ul>
+                    <a href="#" class="btn btn-outline">Contact Sales</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature Comparison Section -->
+    <section class="feature-comparison">
+        <div class="container">
+            <h2>Compare All Features</h2>
+            <div class="comparison-table-wrapper">
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Features</th>
+                            <th>Free</th>
+                            <th>Personal</th>
+                            <th>Professional</th>
+                            <th>Organization</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Monthly uploads</td>
+                            <td>10 GB</td>
+                            <td>25 GB</td>
+                            <td>50 GB</td>
+                            <td>Unlimited</td>
+                        </tr>
+                        <tr>
+                            <td>Max. note size</td>
+                            <td>200 MB</td>
+                            <td>500 MB</td>
+                            <td>1 GB</td>
+                            <td>Unlimited</td>
+                        </tr>
+                        <tr>
+                            <td>Team members</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>5</td>
+                            <td>Unlimited</td>
+                        </tr>
+                        <tr>
+                            <td>Advanced search</td>
+                            <td>✗</td>
+                            <td>✓</td>
+                            <td>✓</td>
+                            <td>✓</td>
+                        </tr>
+                        <tr>
+                            <td>API access</td>
+                            <td>✗</td>
+                            <td>✗</td>
+                            <td>✓</td>
+                            <td>✓</td>
+                        </tr>
+                        <tr>
+                            <td>SSO integration</td>
+                            <td>✗</td>
+                            <td>✗</td>
+                            <td>✗</td>
+                            <td>✓</td>
+                        </tr>
+                        <tr>
+                            <td>Priority support</td>
+                            <td>✗</td>
+                            <td>✓</td>
+                            <td>✓</td>
+                            <td>✓</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>Can I change plans at any time?</h3>
+                    <p>Yes! You can upgrade or downgrade your plan at any time. Changes will be reflected in your next billing cycle.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Is there a free trial for paid plans?</h3>
+                    <p>Absolutely! All paid plans come with a 14-day free trial. No credit card required to start.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What payment methods do you accept?</h3>
+                    <p>We accept all major credit cards, PayPal, and bank transfers for annual subscriptions.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Do you offer discounts for students or nonprofits?</h3>
+                    <p>Yes! We offer special pricing for students, educators, and registered nonprofit organizations. Contact us for details.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Can I cancel my subscription anytime?</h3>
+                    <p>Yes, you can cancel your subscription at any time. Your plan will remain active until the end of your current billing period.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Is my data secure?</h3>
+                    <p>Absolutely. We use end-to-end encryption and comply with industry-standard security practices to keep your data safe.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="get-started" class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to get started?</h2>
+                <p>Join thousands of teams already using Whitepace to boost their productivity and collaboration.</p>
+                <div class="cta-buttons">
+                    <a href="#" class="btn btn-primary btn-large">Try Whitepace free →</a>
+                    <a href="#" class="btn btn-secondary btn-large">Contact Sales</a>
+                </div>
+                <p class="cta-note">Start with our free plan. No credit card required.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>whitepace</h3>
+                    <p>whitepace was created for the new ways we live and work. We make a better workspace around the world</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Product</h3>
+                    <ul>
+                        <li><a href="#">Overview</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="#">Customer stories</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Guides & tutorials</a></li>
+                        <li><a href="#">Help center</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Media kit</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>©2021 Whitepace LLC.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Billing toggle functionality
+        const billingToggle = document.getElementById('billingToggle');
+        const prices = document.querySelectorAll('.price');
+        const billingPeriods = document.querySelectorAll('.billing-period');
+        const annualSavings = document.querySelectorAll('.annual-savings');
+
+        billingToggle.addEventListener('change', function() {
+            prices.forEach(price => {
+                const monthly = price.dataset.monthly;
+                const annual = price.dataset.annual;
+                
+                if (this.checked) {
+                    // Annual billing
+                    price.textContent = annual === '0' ? '$0' : `$${annual}`;
+                } else {
+                    // Monthly billing
+                    price.textContent = monthly === '0' ? '$0' : `$${monthly}`;
+                }
+            });
+
+            billingPeriods.forEach(period => {
+                if (period.textContent !== 'forever') {
+                    period.textContent = this.checked ? 'per month, billed annually' : 'per month';
+                }
+            });
+
+            annualSavings.forEach(saving => {
+                saving.style.display = this.checked ? 'block' : 'none';
+            });
+        });
+    </script>
+</body>
+</html>
